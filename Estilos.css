@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5;
+    text-size-adjust: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    
+  }
+  
+  .seccion {
+    margin-bottom: 30px;
+  }
+  
+  .seccion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .seccion ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .seccion ul li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .seccion ul li strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .foot{
+    text-align: center;
+    background-color: #007bff;
+  }
+
+  /* Estilos de enlace */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .seccion h2 {
+      font-size: 20px;
+    }
+  
+    .seccion ul {
+      padding-left: 10px;
+    }
+  
+    .seccion ul li {
+      font-size: 14px;
+    }
+  
+    .profile-image {
+      max-width: 150px;
+    }
+  }
+
+  .fa {
+   
+    font-size: 300px; /* Ajusta el tamaño de fuente según tus preferencias */
+    margin: 30px; /* Opcional: agrega margen entre los iconos */
+  }
+  
+
+ .fa fa-facebook{
+  height: 200px;
+  width: 200px;
+ }
+  
